@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+counter = "7JtjNes6gDbHHiE3fg47jPvz7VV3gBhBXyAwCtsz6pDA"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/vijay/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
